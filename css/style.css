@@ -524,7 +524,7 @@ footer {
 } 
 
 /* !!en proceso!! */
-@media only screen and (min-width: 500px) and (max-width: 992px) {
+@media only screen and (min-width: 501px) and (max-width: 992px) {
     header nav {
     
         font-size: 1.5vw;
