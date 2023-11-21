@@ -182,6 +182,9 @@ header img {
   padding: 15px 15px 20px 15px;
   min-height: 72vh;
 }
+.contactForm h1 {
+  font-size: 2rem;
+}
 .contactForm p {
   font-size: 1rem;
 }
@@ -197,6 +200,9 @@ header img {
 /*nosotros*/
 .title {
   text-align: left;
+  font-size: "maima";
+  color: black;
+  font-size: 2rem;
   margin: 20px;
   animation-iteration-count: 5;
   animation-duration: 2s;
@@ -254,12 +260,21 @@ header img {
 }
 
 /*servicios*/
+.titleServicios {
+  text-align: center;
+  font-family: "maima";
+  color: black;
+  font-size: 2rem;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
 .servicios {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  min-height: 80vh;
+  min-height: 60vh;
 }
 .servicios .size {
   width: 34.5%;
@@ -270,12 +285,21 @@ header img {
 }
 
 /*productos*/
+.titleProductos {
+  text-align: center;
+  font-family: "maima";
+  color: black;
+  font-size: 2rem;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
 .pageProductos {
   text-align: center;
   font-family: "maima";
   color: black;
   font-size: 1.5rem;
-  margin-top: 100px;
+  margin-top: 20px;
   min-height: 67vh;
 }
 .pageProductos h6 {

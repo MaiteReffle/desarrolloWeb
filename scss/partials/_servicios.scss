@@ -1,7 +1,16 @@
 /*servicios*/
+.titleServicios {
+    text-align: center;
+    font-family: 'maima';
+    color: black;
+    font-size: 2rem;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
 .servicios {
     @include flex (row,center,center);
-    min-height: 80vh;
+    min-height: 60vh;
     .size {
         width: 34.5%;
         .carousel-color {

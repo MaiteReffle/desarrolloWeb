@@ -1,10 +1,19 @@
 /*productos*/
+.titleProductos {
+    text-align: center;
+    font-family: 'maima';
+    color: black;
+    font-size: 2rem;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
 .pageProductos {
     text-align: center;
     font-family: 'maima';
     color: black;
     font-size: 1.5rem;
-    margin-top: 100px;
+    margin-top: 20px;
     min-height: 67vh;
     h6 {
         font-weight: bold;
