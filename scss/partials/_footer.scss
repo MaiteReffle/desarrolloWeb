@@ -1,0 +1,25 @@
+/*footer*/
+footer {
+    background-color: $casiBlanco;
+    font-family: 'maima';
+    text-align: center;
+    @include flex (column,center,center);
+    padding: 5px;
+    .socialMedia { 
+        display: flex;
+        margin-top: 4px; 
+        padding: 5px;
+        img {
+            width: 3ex;
+            display: block;
+            margin: auto;
+            margin: 3px;
+        }
+    }
+    .copy {
+        font-family: 'maima';
+        font-size: 70%;  
+        text-align: right;
+    }
+    
+}

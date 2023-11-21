@@ -1,0 +1,32 @@
+
+/* header */
+header {
+    background-color: $casiBlanco;
+    font-family: 'maima';
+    position: sticky;
+    top: 0px;
+    z-index: 999;
+    nav {
+        font-size: 0.8vw;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        a {
+            color: $uva; 
+            text-decoration: none;
+        }
+    }
+    img {
+        width: 20ex;  
+    }
+}
+
+
+/* navbar */
+.navbar-brand {
+    margin-left: 50%;
+    transform: translate(-50%);
+    img {
+        display: block;
+        margin: auto;
+    }
+}

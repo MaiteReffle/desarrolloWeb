@@ -1,0 +1,29 @@
+// este es un comentario que solo queda en sass
+@import "partials/variables.scss";
+
+@font-face { 
+    font-family: 'maimaDetalles';
+    src: url(../fonts/SelfModern-Light.ttf)
+}
+
+ @font-face {
+    font-family: 'maima';
+    src: url(../fonts/RocGrotesk-Light.ttf);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "partials/header.scss";
+@import "partials/index.scss";
+@import "partials/contacto.scss";
+@import "partials/nosotros";
+@import "partials/servicios";
+@import "partials/productos.scss";
+@import "partials/footer.scss";
+@import "partials/mobiledevices.scss"; 
+@import "partials/tablets.scss";

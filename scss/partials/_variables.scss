@@ -1,0 +1,11 @@
+$uva:#877272;
+$rosado: #fcd8c1;
+$casiBlanco: #F3F3EF; 
+
+@mixin flex ($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+
+}

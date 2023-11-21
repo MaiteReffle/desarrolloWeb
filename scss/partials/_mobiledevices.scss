@@ -1,0 +1,141 @@
+/* mobile devices */
+@media only screen and (max-width: 500px) {
+    header {
+        nav {
+    
+            font-size: 2.5vw;
+            text-align: right;
+        }
+        img {
+            width: 15ex;    
+        }
+        p {
+            font-size: 4vw;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .navbar-brand {
+        margin-left: 20%;
+        transform: translate(-50%);
+    }
+
+    /*index*/
+    .banner {
+        padding: 100px 0px; 
+        h1 { 
+            font-size: 1.5rem;
+            margin-left: 0;
+        }
+    }
+    .general {
+        h2 {
+            font-size: 1.5rem;
+            padding-bottom: 15px;
+        }
+        h6 {
+            font-size: 0.8rem;
+            letter-spacing: 0.05rem;
+        }
+        p {
+            font-size: 0.75rem;
+            margin-bottom: 20px;
+        }
+        img {
+            width: 15ex;
+        }
+        .productos {
+            flex-direction: column;
+        }
+    }
+    
+    .dondeEstamos {
+        h2 { 
+            font-size: 1.5rem;
+        }
+        iframe {
+            width: 100%;
+        }
+    }
+    .nosotras {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+        h2 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 3vw;
+            padding: 15px;
+        }
+        div {
+            text-align: center;
+        }
+        .newsletter {
+            h3 {
+                font-size: 1.4rem;
+                margin-bottom: 10px;
+            }
+            p {
+                display: none;
+            }
+        }
+    }
+    /*nosotros*/
+    .title {
+        text-align: center;
+        margin: 3vw;
+    }
+    .gridNosotras {
+        padding: 0px;
+        margin: 0 8vw;
+        font-size: 3vw;
+        display: grid;
+        grid-template-areas: 
+        "img1"
+        "text1"
+        "img3"
+        "text2"
+        "img2"
+        "text3"
+        "img4"
+        "text4";
+
+        grid-template-columns: 100%;
+        grid-template-rows: 62vw 32vw 47vw 25vw 38vw 65vw 56vw 32vw;
+        img {
+            width: 100%;
+        }
+        .grid-text {
+            font-size: 2.5vw;
+            padding: 0.9vw;
+        }
+        .grid-text2 {
+            font-size: 2.5vw;
+            padding: 0.9vw;
+        }
+        .grid-text3 {
+            font-size: 2.5vw;
+            padding: 0.9vw;
+        }
+        .grid-text4 {
+            font-size: 2.5vw;
+            padding: 0.9vw;
+        }
+        .grid-img5 {
+            display: none;
+        }
+    }
+    /*servicios*/
+    .servicios {
+        .size {
+            width: 100%;
+        }
+    }
+
+    /*productos*/
+    .pageProductos img {
+        width: 40vw;
+    }
+}

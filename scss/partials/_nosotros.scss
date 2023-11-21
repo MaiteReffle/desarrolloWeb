@@ -1,0 +1,78 @@
+
+/*nosotros*/
+.title {
+    text-align: left;
+    margin: 20px;
+    // animation-name: title;
+    animation-iteration-count: 5;
+    animation-duration: 2s;
+    // animation-delay: 0.5s;
+}
+
+// @keyframes title {
+//     100% {
+//         transform: translate(10%);
+//     }
+// }
+
+
+
+.gridNosotras {
+    padding: 5px;
+    text-align: center;
+    font-family: 'maima';
+    color: black;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-areas: 
+    "img1 text1 img2"
+    "img1 img5 text3"
+    "text2 img5 text3"
+    "img3 text4 img4";
+
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 270px 175px 132px 410px;
+    img {
+        width: 100%;
+    }
+    .grid-img {
+        text-align: center;
+        grid-area: img1;
+    }
+    .grid-text {
+        font-size: 0.90rem;
+        grid-area: text1;
+        text-align: justify;
+        padding: 5px;
+    }
+    .grid-img2 {
+        text-align: center;
+        grid-area: img2;
+    }
+    .grid-text2 {
+        @extend .grid-text;
+        grid-area: text2;
+    }
+
+    .grid-img3 {
+        text-align: center;
+        grid-area: img3;
+    }
+    .grid-text3 {
+        @extend .grid-text;
+        grid-area: text3;
+    }
+    .grid-img4 {
+        text-align: center;
+        grid-area: img4;
+    }
+    .grid-text4 {
+        @extend .grid-text;
+        grid-area: text4;
+    }
+    .grid-img5 {
+        text-align: center;
+        grid-area: img5;
+        padding-top: 5px;
+    }
+}

@@ -1,0 +1,12 @@
+/*servicios*/
+.servicios {
+    @include flex (row,center,center);
+    min-height: 80vh;
+    .size {
+        width: 34.5%;
+        .carousel-color {
+            color: $uva;
+            background-color: $rosado;
+        }
+    }
+}
