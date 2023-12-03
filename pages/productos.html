@@ -3,25 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- SEO -->
+    <meta name="description" content="Conocé nuestros productos de nuestro emprendimiento de plantas y jardinería.">
+    <meta name="keywords" content="jardinería, plantas, macetas, productos, tierra, abono, accesorios">
     <title>MAÏMA - Productos</title>
     <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!--CSS con sass-->
     <link rel="stylesheet" href="../css/stylesass.css">
+    <!-- icono barra de navegación-->
+    <link rel="icon" type="image/svg" href="../media/isotipo-Maïma.svg">
   </head>
 
 <body>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <header>
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div class="container-fluid barraNavegacion">
               <a class="navbar-brand" href="../index.html">
                 <img src="../media/logotipo-Maïma.svg" alt="LogoMaima"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
+              <div class="collapse navbar-collapse justify-content-end contenedor" id="navbarNav">
+                <ul class="navbar-nav ml-auto miUl">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="../index.html">Home</a>
                   </li>
@@ -34,7 +39,7 @@
                   <li class="nav-item">
                     <a class="nav-link" href="./nosotros.html">Nosotros</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item ultimoLi">
                     <a class="nav-link" href="./contacto.html">Contacto</a>
                   </li>
                 </ul>
@@ -44,22 +49,24 @@
     </header>
     
     <main>
-      <h1 class="titleProductos">Nuestros productos</h1>
-      <section class="pageProductos row">
-        <div class="col-12 col-lg-4">
-          <img src="../media/gomero.webp" alt="">
-          <h6>GOMERO</h6>
-          <p>$5000</p>
-        </div>
-        <div class="col-12 col-lg-4">
-          <img src="../media/maceta.webp" alt="">
-          <h6>MACETA</h6>
-          <p>$4000</p>
-        </div>
-        <div class="col-12 col-lg-4">
-          <img src="../media/monstera.webp" alt="">
-          <h6>MONSTERA</h6>
-          <p>$5000</p>
+      <section class="container-fluid">
+        <h1 class="titleProductos">Nuestros productos</h1>
+        <div class="pageProductos row">
+          <div class="col-12 col-lg-4">
+            <img src="../media/gomero.webp" alt="gomero grande">
+            <h6>GOMERO</h6>
+            <p>$5000</p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="../media/maceta.webp" alt="maceta blanco fibrocemento">
+            <h6>MACETA</h6>
+            <p>$4000</p>
+          </div>
+          <div class="col-12 col-lg-4">
+            <img src="../media/monstera.webp" alt="monstera grande">
+            <h6>MONSTERA</h6>
+            <p>$5000</p>
+          </div>
         </div>
     </section>
 
@@ -68,10 +75,10 @@
     <footer>
         <p>Buscanos en redes</p>
         <section class="socialMedia">
-            <img src="../media/whatsapp.png" alt="">
-            <img src="../media/instagram.png" alt="">
-            <img src="../media/tiktok.png" alt="">
-            <img src="../media/facebook.png" alt="">
+            <img src="../media/whatsapp.png" alt="logo de whatsapp">
+            <img src="../media/instagram.png" alt="logo de instagram">
+            <img src="../media/tiktok.png" alt="logo de tik tok">
+            <img src="../media/facebook.png" alt="logo de facebook">
         </section>
         <p class="copy">Copyright Maite Reffle | 2023 ©</p>
     </footer>

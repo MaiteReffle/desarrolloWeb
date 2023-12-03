@@ -5,12 +5,153 @@
     
             font-size: 1.5vw;
             text-align: right;
-            
+        }
+        img {
+            width: 25vw;    
+        }
+        p {
+            font-size: 4vw;
+            width: 100%;
+            text-align: center;
         }
     }
+    .navbar-brand {
+        margin-left: 20%;
+        transform: translate(-50%);
+    }
+
     .pageProductos {
         img {
             width: 30vw;
+        }
+    }
+
+    /*index*/
+    .banner {
+        padding: 100px 0px; 
+        h1 { 
+            font-size: 1.5rem;
+            margin-left: 0;
+        }
+    }
+    .general {
+        text-align: center;
+        font-family: 'maima';
+        color: black;
+        font-size: 1.5rem;
+        margin: 50px auto;
+        h2 { 
+            font-size: 3vw;
+        }
+        h2:hover {
+            color: $rosado;
+            text-decoration: underline;
+            transition: 0.5s;
+        }
+        .productos {
+            @include flex (row,space-evenly,center);
+            .gomero:hover {
+                filter: grayscale(80%);
+            }
+            .maceta:hover {
+                filter: grayscale(80%);
+            }
+            .monstera:hover {
+                filter: grayscale(80%);
+            }
+        }
+        img {
+            width: 20vw;
+        }
+        h3 {
+            font-size: 2vw;
+        }
+        p { 
+            font-size: 1.5vw;
+        }
+    }
+    
+    .dondeEstamos {
+        h2 { 
+            font-size: 3vw;
+        }
+        iframe {
+            width: 100%;
+        }
+    }
+    .nosotras {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+        h2 {
+            font-size: 3vw;
+        }
+        p {
+            font-size: 2vw;
+            padding: 15px;
+        }
+        div {
+            text-align: center;
+        }
+        .newsletter {
+            h3 {
+                font-size: 1.4rem;
+                margin-bottom: 10px;
+            }
+            p {
+                display: none;
+            }
+        }
+    }
+
+    /*servicios*/
+    .servicios {
+        .size {
+            width: 100%;
+        }
+    }
+
+    /*nosotros*/
+    .title {
+        text-align: center;
+        margin: 3vw;
+    }
+    .gridNosotras {
+        padding: 0px;
+        margin: 0.8vw;
+        font-size: 3vw;
+        display: grid;
+        grid-template-areas: 
+        "img1"
+        "text1"
+        "img3"
+        "text2"
+        "img2"
+        "text3"
+        "img4"
+        "text4";
+        grid-template-columns: 100%;
+        grid-template-rows: 72vw 17vw 55vw 14vw 44vw 37vw 65vw 23vw;
+
+        img {
+            width: 100%;
+        }
+        .grid-text {
+            font-size: 2vw;
+            padding: 0.9vw;
+        }
+        .grid-text2 {
+            @extend .grid-text;
+        }
+        .grid-text3 {
+            @extend .grid-text;
+        }
+        .grid-text4 {
+            @extend .grid-text;
+        }
+        .grid-img5 {
+            display: none;
         }
     }
 

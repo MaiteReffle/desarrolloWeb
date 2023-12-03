@@ -32,7 +32,7 @@
     "img3 text4 img4";
 
     grid-template-columns: 40% 20% 40%;
-    grid-template-rows: 270px 175px 132px 410px;
+    grid-template-rows: 18vw 11.6vw 8.3vw 27vw;
     img {
         width: 100%;
     }
@@ -41,10 +41,10 @@
         grid-area: img1;
     }
     .grid-text {
-        font-size: 0.90rem;
+        font-size: 0.93vw;
         grid-area: text1;
         text-align: justify;
-        padding: 5px;
+        padding: 0.28vw;
     }
     .grid-img2 {
         text-align: center;
@@ -62,6 +62,7 @@
     .grid-text3 {
         @extend .grid-text;
         grid-area: text3;
+        padding-top: 0.35vw;
     }
     .grid-img4 {
         text-align: center;
@@ -74,6 +75,8 @@
     .grid-img5 {
         text-align: center;
         grid-area: img5;
-        padding-top: 5px;
+    }
+    p {
+        margin: 0px;
     }
 }

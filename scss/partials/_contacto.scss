@@ -17,10 +17,16 @@
     }
     form {
         font-size: 1rem;
-        font-family: 'maimaDetalles';
+        font-family: 'maima';
         text-align: center;
         .button:focus {
             border: $rosado 5px dotted;
+        }
+        .button {
+            margin-top: 7px;
+        }
+        .message {
+            margin-top: 10px;
         }
     }
 }

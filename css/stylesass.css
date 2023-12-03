@@ -29,6 +29,15 @@ header nav a {
   color: #877272;
   text-decoration: none;
 }
+header nav .barraNavegacion .contenedor {
+  padding-right: 0.5px;
+}
+header nav .barraNavegacion .contenedor .miUl li a {
+  padding: 0.5vw;
+}
+header nav .barraNavegacion .contenedor .miUl .ultimoLi a {
+  padding-right: 0px;
+}
 header img {
   width: 20ex;
 }
@@ -67,8 +76,7 @@ header img {
   font-family: "maima";
   color: black;
   font-size: 1.5rem;
-  margin: 0px auto;
-  margin: 50px;
+  margin: 50px auto;
 }
 .general h2:hover {
   color: #fcd8c1;
@@ -91,7 +99,10 @@ header img {
   filter: grayscale(80%);
 }
 .general img {
-  width: 25ex;
+  width: 20vw;
+}
+.general h3 {
+  font-size: 1.5vw;
 }
 .general p {
   font-size: 1rem;
@@ -119,7 +130,7 @@ header img {
   display: grid;
   grid-template-areas: "img ." "img title" "img text";
   grid-template-columns: 40% 50%;
-  grid-template-rows: 30px 60px 500px;
+  grid-template-rows: 30px 60px 30vw;
 }
 .nosotras img {
   width: 50%;
@@ -138,7 +149,7 @@ header img {
   grid-area: img;
 }
 .nosotras p {
-  font-size: 1rem;
+  font-size: 1.1vw;
   grid-area: text;
   text-align: justify;
 }
@@ -165,7 +176,7 @@ header img {
 }
 .newsletter .grillaNewsletter form {
   font-size: 1rem;
-  font-family: "maimaDetalles";
+  font-family: "maima";
   text-align: center;
 }
 .newsletter .grillaNewsletter form .button:focus {
@@ -190,11 +201,17 @@ header img {
 }
 .contactForm form {
   font-size: 1rem;
-  font-family: "maimaDetalles";
+  font-family: "maima";
   text-align: center;
 }
 .contactForm form .button:focus {
   border: #fcd8c1 5px dotted;
+}
+.contactForm form .button {
+  margin-top: 7px;
+}
+.contactForm form .message {
+  margin-top: 10px;
 }
 
 /*nosotros*/
@@ -217,7 +234,7 @@ header img {
   display: grid;
   grid-template-areas: "img1 text1 img2" "img1 img5 text3" "text2 img5 text3" "img3 text4 img4";
   grid-template-columns: 40% 20% 40%;
-  grid-template-rows: 270px 175px 132px 410px;
+  grid-template-rows: 18vw 11.6vw 8.3vw 27vw;
 }
 .gridNosotras img {
   width: 100%;
@@ -227,10 +244,10 @@ header img {
   grid-area: img1;
 }
 .gridNosotras .grid-text, .gridNosotras .grid-text4, .gridNosotras .grid-text3, .gridNosotras .grid-text2 {
-  font-size: 0.9rem;
+  font-size: 0.93vw;
   grid-area: text1;
   text-align: justify;
-  padding: 5px;
+  padding: 0.28vw;
 }
 .gridNosotras .grid-img2 {
   text-align: center;
@@ -245,6 +262,7 @@ header img {
 }
 .gridNosotras .grid-text3 {
   grid-area: text3;
+  padding-top: 0.35vw;
 }
 .gridNosotras .grid-img4 {
   text-align: center;
@@ -256,7 +274,9 @@ header img {
 .gridNosotras .grid-img5 {
   text-align: center;
   grid-area: img5;
-  padding-top: 5px;
+}
+.gridNosotras p {
+  margin: 0px;
 }
 
 /*servicios*/
@@ -347,7 +367,7 @@ footer .copy {
     text-align: right;
   }
   header img {
-    width: 15ex;
+    width: 30vw;
   }
   header p {
     font-size: 4vw;
@@ -370,7 +390,7 @@ footer .copy {
     font-size: 1.5rem;
     padding-bottom: 15px;
   }
-  .general h6 {
+  .general h3 {
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
   }
@@ -464,8 +484,124 @@ footer .copy {
     font-size: 1.5vw;
     text-align: right;
   }
+  header img {
+    width: 25vw;
+  }
+  header p {
+    font-size: 4vw;
+    width: 100%;
+    text-align: center;
+  }
+  .navbar-brand {
+    margin-left: 20%;
+    transform: translate(-50%);
+  }
   .pageProductos img {
     width: 30vw;
+  }
+  /*index*/
+  .banner {
+    padding: 100px 0px;
+  }
+  .banner h1 {
+    font-size: 1.5rem;
+    margin-left: 0;
+  }
+  .general {
+    text-align: center;
+    font-family: "maima";
+    color: black;
+    font-size: 1.5rem;
+    margin: 50px auto;
+  }
+  .general h2 {
+    font-size: 3vw;
+  }
+  .general h2:hover {
+    color: #fcd8c1;
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  .general .productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .general .productos .gomero:hover {
+    filter: grayscale(80%);
+  }
+  .general .productos .maceta:hover {
+    filter: grayscale(80%);
+  }
+  .general .productos .monstera:hover {
+    filter: grayscale(80%);
+  }
+  .general img {
+    width: 20vw;
+  }
+  .general h3 {
+    font-size: 2vw;
+  }
+  .general p {
+    font-size: 1.5vw;
+  }
+  .dondeEstamos h2 {
+    font-size: 3vw;
+  }
+  .dondeEstamos iframe {
+    width: 100%;
+  }
+  .nosotras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .nosotras h2 {
+    font-size: 3vw;
+  }
+  .nosotras p {
+    font-size: 2vw;
+    padding: 15px;
+  }
+  .nosotras div {
+    text-align: center;
+  }
+  .nosotras .newsletter h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+  .nosotras .newsletter p {
+    display: none;
+  }
+  /*servicios*/
+  .servicios .size {
+    width: 100%;
+  }
+  /*nosotros*/
+  .title {
+    text-align: center;
+    margin: 3vw;
+  }
+  .gridNosotras {
+    padding: 0px;
+    margin: 0.8vw;
+    font-size: 3vw;
+    display: grid;
+    grid-template-areas: "img1" "text1" "img3" "text2" "img2" "text3" "img4" "text4";
+    grid-template-columns: 100%;
+    grid-template-rows: 72vw 17vw 55vw 14vw 44vw 37vw 65vw 23vw;
+  }
+  .gridNosotras img {
+    width: 100%;
+  }
+  .gridNosotras .grid-text, .gridNosotras .grid-text2, .gridNosotras .grid-text3, .gridNosotras .grid-text4 {
+    font-size: 2vw;
+    padding: 0.9vw;
+  }
+  .gridNosotras .grid-img5 {
+    display: none;
   }
 }
 
